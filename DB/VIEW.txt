@@ -1,0 +1,6 @@
+CREATE ALGORITHM=UNDEFINED DEFINER=`maruf`@`%` SQL SECURITY DEFINER VIEW `sav_semester` AS select `m00_lkpdata`.`LKP_ID` AS `SEMESTER_ID`,`m00_lkpdata`.`LKP_NAME` AS `SEMESTER_NAME`,`m00_lkpdata`.`ACT_FG` AS `ACTIVE_FLAG`,`m00_lkpdata`.`SL_NO` AS `SL_NO` from `m00_lkpdata` where (`m00_lkpdata`.`GRP_ID` = 16);
+
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`maruf`@`%` SQL SECURITY DEFINER VIEW `waiver_view` AS select `m00_lkpdata`.`LKP_ID` AS `WAIVER_ID`,`m00_lkpdata`.`LKP_NAME` AS `WAIVER_NAME`,`m00_lkpdata`.`ACT_FG` AS `ACTIVE_FLAG`,`m00_lkpdata`.`SL_NO` AS `SL_NO` from `m00_lkpdata` where (`m00_lkpdata`.`GRP_ID` = 31);
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`maruf`@`%` SQL SECURITY DEFINER VIEW `weeks` AS select `m00_lkpdata`.`LKP_ID` AS `DAY_ID`,`m00_lkpdata`.`LKP_NAME` AS `DAY_NAME`,`m00_lkpdata`.`ACT_FG` AS `ACTIVE_FLAG`,`m00_lkpdata`.`ABBR` AS `ABBR` from `m00_lkpdata` where (`m00_lkpdata`.`GRP_ID` = 77);

@@ -1,0 +1,587 @@
+
+
+/* ==========================================================================
+   Omar Faruk's custom styles
+   ========================================================================== */
+
+body{
+	font-size: 14px;
+}
+#header{
+	background: url(../img/bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+	/*height: 84vh;*/
+	width: 100%;
+}
+
+.logo >a>img {
+        height: 70px;
+        margin-top: 25px;
+    }
+.account-holder{
+	padding-left: 25%;
+    padding-top: 35px;
+}
+.account-holder .ac-pic>img{
+	display: inline-block;
+	float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.account-holder>p{	
+	display: inline-block;
+	margin: 0px;
+    margin-left: 20px;
+    margin-top: 17px;
+    color: #fff;
+    font-weight: 600;
+}
+.account-holder>a{
+	display: inline-block;
+	float: right;
+	color: #fff;
+	font-weight: 600;
+	margin-top: 12px;
+}
+.account-holder>a:hover{
+	text-decoration: none;
+    color: #fff;
+}
+.navbar-default {
+    background-color: transparent;
+    border: 0px;
+    background-image: none; 
+    box-shadow:none;
+}
+.navbar-nav >li>a{
+	color: #fff !important;
+	display:inline-block;
+}
+.navbar-nav >li>a>img{
+	height: 40px;
+	margin-right: 10px;
+}
+
+.sidebar-nav {
+  	margin-top: 30px;
+  }
+.bold-text{
+	color: #fff;
+	padding-left: 15px;
+        margin-bottom: 0px;
+}
+.magic-text:hover p>span{
+    display: none;
+}
+.magic-text:hover p:after{
+    content: 'সম্ভাবনাময় দেশ গড়ি \A বিশ্বময় নিজ সংস্কৃতি তুলে ধরি';
+    white-space: pre;
+}
+.bold-text .r-text{
+	color: #A6492F;
+}
+.modal-message{
+    text-align: center;
+}
+.modal-message>h1{
+	text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.modal-message button.btn-primary, 
+.modal-message button.btn-primary:hover, 
+.modal-message button.btn-primary:active, 
+.modal-message button.btn-primary:active:hover, 
+.modal-message button.btn-primary:focus,
+.modal-message button.btn-primary:active:focus{
+	background-image: none;
+	background-color:#79B04A;
+	padding: 7px 70px;
+    border-radius: 0px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 0px;
+}
+
+.modal-header{
+	border:0px;
+}
+.modal-header h4{
+	color: #681156;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #ddd !important;
+    padding-bottom: 10px !important;
+}
+.modal-header p{
+	color: #9B9CA0;
+	word-spacing: 2px;
+}
+.modalBody img{
+	height: 35px;
+}
+.modalBody{
+	border:0px;
+	text-align:center;
+    padding-top: 0px !important;
+}
+.modalBody h4{
+	color:#681156;
+	margin-top: 15px;
+	font-size: 25px;
+	margin-bottom: 8px; 
+}
+.modalBody p{
+	color: #9B9CA0;
+	word-spacing: 2px;
+}
+.modalBody img{
+	height: 35px;
+}
+
+
+.or{
+	text-align: left;
+	margin-left: 17%;
+    margin-top: 0px;
+}
+label {
+    text-align: left;
+    color: #9B9CA0;
+    margin-top: 3px;
+    display: block;
+}
+.form-control {
+    border:0px;
+    border-bottom: 1px solid #686868;
+    border-radius: 0px;
+    box-shadow: none;
+    outline: 0px;
+}
+.form-control:focus {
+     border-color: #686868;
+    outline: 0; 
+    box-shadow: none;
+}
+.modal-content {
+    border-radius: 0px;
+}
+.modal-footer {
+    border-top: 0px;
+    text-align: center;
+}
+.login-btn{
+	border-radius: 15px !important;
+	background-color: #9E005D !important;
+    border: 0px !important;
+    padding: 8px 60px;
+}
+.forget-pass{
+	margin-top: 7px;
+    margin-bottom: 20px;
+    color: #686868;
+    display: block;
+}
+.sign-up-today{
+	margin-bottom: 40px;
+	color: #686868;
+	display: block;
+}
+.sign-up-today>span{
+	color: #820B69;
+}
+.individual-btn{
+	background-color: #FBC433 !important;
+	border: 0px;
+}
+.organization-btn{
+	background-color:#E65D2E !important;
+	border: 0px;
+	padding: 7px 53px !important;
+}
+.individual-title{
+	height: 1px;
+    display: block;
+    background-color: #ccc;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+
+}
+.social{
+	/*height: 50px;*/
+}
+.hr{
+	width: 1px;
+	height: 50px;
+	background-color: #ccc;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px 15px;
+}
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+        padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .menu-item {
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .bigIcon {
+        font-size: 50px !important;
+    }
+}
+/*.form-control {
+    height: 25px;
+}*/
+.form-group>label>span{
+	color: red;
+}
+.individual-btn2, .individual-btn2:hover{
+	background-color: #E85D30 !important;
+	border-radius: 15px !important;
+    border: 0px;
+        color: #fff;
+}
+.dob{
+	display: inline-block;
+	width: 43%;
+    float: left;
+    margin-right: 15px;
+}
+.dob >input{
+	display: inline-block;
+}
+.pre-btn, .pre-btn:hover{
+	display: block;
+	margin: 0 auto;
+	//background-color: #E85D30;
+	margin-bottom: 15px !important;
+	background-image: none;
+	color: #fff;
+	//border-radius: 15px;
+	outline: 0px;
+	//margin-left: 30% !important;
+	box-shadow: none;
+	border:0px;
+}
+.sub-btn, .sub-btn:hover{
+	display: block;
+	margin: 0 auto;
+	background-color: #A00661;
+	margin-bottom: 15px !important;
+	background-image: none;
+	color: #fff;
+	border-radius: 15px;
+	outline: 0px;
+	margin-left: 20% !important;
+	box-shadow: none;
+	border:0px;	
+}
+input[type=checkbox] {
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 10px;
+}
+button, button:focus, button:active{
+	outline: 0;
+	border:none; 
+}
+.terms-form  span{
+	color: #E43433;
+}
+.org-btn{
+	    border-radius: 15px !important;
+    background-color: #E85D30 !important;
+    border:0px; 
+}
+iframe {
+	width: 420px;
+}
+.form-group2{
+	position: relative;
+    height: 60px;
+
+    border-bottom: 2px solid #686868;
+}
+.form-group2 >label{
+	float: right;
+	background-color: #79B04A;
+	color: #fff;
+    padding: 8px 25px;
+}
+.form-group2 >p{
+	display: inline-block;
+	float: left;
+	color: #9B9CA0;
+    font-weight: 700;
+}
+.form-group2 >p>span{
+	color: red;
+}
+.form-group input.file-upload{
+	 position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    height: 38px;
+}
+label>span{
+	color: #E43433;
+}
+
+/*=======================Loin Page==============*/
+
+
+.aft-login-menu{
+	margin-top: 10%;
+	text-align: center;
+}
+.aft-login-menu P{
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+.menu-item {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    width: 120px;
+    height: 120px; 
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.menu-item:hover{
+    border:5px solid #FBC433;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%; 
+}
+
+.menu-item>img {
+        width: 65px;
+        position: relative;
+        display: inline-block;
+        margin-top: 25px; 
+}
+.menu-item:hover>img{
+    background-color: : #FBC433;
+}
+
+.menu-item>p{
+	color: #fff;
+	font-weight: 700;
+    margin-top: 15px;
+    font-size: 16px;
+}
+.bold-text-area{
+	margin-top: 7%;
+}
+
+@media (max-width: 800px){
+	.menu-item{
+		display: block;
+		margin:0 auto;
+	}
+} 
+
+
+@media (min-width: 750px) and (max-width:1100px){	
+		.menu-item{
+			width: 18%;
+			display: inline-block;
+			margin:0 auto;
+		}
+		.menu-item>p {
+		    font-size: 12px;
+		}
+}
+
+
+.ac-holder-dropdown {
+	display: inline-block;
+    margin-top: 5px;
+}
+.ac-holder-dropdown >button {
+	background-color: transparent !important;
+	color: #fff !important;
+	border:0px;
+	outline: 0px;
+}
+.ac-holder-dropdown >button:hover, 
+.ac-holder-dropdown >button:active, 
+.ac-holder-dropdown >button:focus,
+.open>.dropdown-toggle.btn-default {
+	background-color: transparent;
+	color: #fff;
+	border:0px;
+	outline: 0px;
+	box-shadow: none;
+}
+
+button:focus {outline:0 !important; }
+
+
+
+
+
+
+/*=======================Footer==============*/
+footer{
+	height: 15vh;
+    padding:0px !important;
+}
+.footer_col1 > a {
+    color: #002F49;
+    font-size: 16px;
+    margin-left: 5%;
+}
+.footer_col1 {
+    padding: 25px 0 0;
+}
+
+@media (min-width: 1200px){
+	.footer_col1 > a {
+	    color: #002F49;
+	    font-size: 16px;
+	    margin-left: 5%;
+	}
+}
+
+.footer_col3 a.facebook_icon, .social_login a.facebook_icon {
+    background-color: #5D7FBF;
+    box-shadow: 0 0 0 2px #5D7FBF;
+        
+}
+.footer_col3 a, .social_login a {
+    border: 3px solid #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 16px;
+    height: 35px;
+    line-height: 1;
+    margin-left: 10px;
+    padding-top: 7px;
+    text-align: center;
+    width: 35px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.footer_col3 a.twitter_icon {
+    background-color: #49B9EA;
+    box-shadow: 0 0 0 2px #49B9EA;
+}
+.footer_col3 {
+    padding: 30px 0 0;
+}
+.footer_col3 a.email_icon {
+    background-color: #79B04A;
+    box-shadow: 0 0 0 2px #79B04A;
+}
+
+
+
+
+@media (max-width: 750px){
+	.account-holder {
+	    padding-left: 0%;
+	   /* padding-top: 35px;*/
+	}
+
+	#header {
+    	height: 100%;
+    	position: relative;
+    	padding-bottom: 30px;
+	}
+	.sidebar-nav {
+    	margin-top: 0px;
+	}
+	.modal-dialog {
+    	margin-left: 15% !important;
+	}
+
+	.footer_col1{
+		margin-bottom: 20px;
+	}
+
+	.footer_col2{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.footer_col3{
+		text-align: center;
+	}
+
+
+}
+
+
+ @media (max-width: 750px){
+       
+        #header {
+            height: 100%;
+        }
+        footer {
+            height: 100%;
+            padding:10px 0px;
+        }
+    }
+
+@media (min-width: 768px){
+        .sidebar-nav .navbar li a {
+            padding-top: 5px;
+        }
+    }
+@media (min-width: 1600px){
+        footer {  
+            padding:10px 0px;
+        }
+    }
+
+
+input[type=file] {
+    height: 35px;
+   
+}
+
+
+
+.swal-modal {
+    width: 395px;
+}
